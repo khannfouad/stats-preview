@@ -81,6 +81,10 @@ img{
     border-radius: 10px 10px 0 0 ;
 }
 
+h1,h3{
+  font-weight: 700;
+}
+
 .wrapper-wrapper{
     padding: 2em;
 }
@@ -255,9 +259,10 @@ span{
 }
 
 @media (min-width: 1024px) {
-  
+
   .wrapper {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
   }
 
   .content--box {
@@ -270,7 +275,7 @@ span{
   }
 
   .content--box p {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     width: inherit;
   }
 
